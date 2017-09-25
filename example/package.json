@@ -2,15 +2,10 @@
     "name": "krl-node-modules",
     "private": true,
     "dependencies": {
-        "pico-engine": "^0.13.0"
-    },
-    "devDependencies": {
-        "home-dir": "^1.0.0",
-        "lodash": "^4.17.4",
-        "read-pkg-up": "^2.0.0"
+        "pico-engine": "^0.13.2"
     },
     "scripts": {
-        "start": "node pico-engine.js"
+        "start": "pico-engine"
     },
     "pico-engine": {
         "port": 4080,
