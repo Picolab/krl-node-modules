@@ -1,5 +1,4 @@
 var _ = require('lodash')
-var DOMParser = require('xmldom').DOMParser
 var mkKRLfn = require('../mkKRLfn')
 var mkKRLaction = require('../mkKRLaction')
 var Telnet = require('telnet-client')
