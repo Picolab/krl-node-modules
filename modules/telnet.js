@@ -9,12 +9,8 @@ var connection = new Telnet()
 var parameters = {
   "host": '127.0.0.1',
   "port": 23,
-  "shellPrompt": "QNET>",
-  "loginPrompt": "login:",
-  "passwordPrompt": "password:",
   "username": 'root',
   "password": 'guest',
-  "failedLoginMatch": new RegExp('bad.*login.*'),
   "initialLFCR": true,
   "timeout": 1800000 // 30 minutes
 }
