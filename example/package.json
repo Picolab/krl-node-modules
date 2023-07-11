@@ -2,7 +2,7 @@
     "name": "krl-node-modules",
     "private": true,
     "dependencies": {
-        "pico-engine": "^0.13.2"
+        "pico-engine": "^1.2.0"
     },
     "scripts": {
         "start": "pico-engine"
